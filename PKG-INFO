@@ -1,0 +1,20 @@
+Metadata-Version: 1.0
+Name: equivalence
+Version: 0.1
+Summary: Ad-hoc and key-based equivalence relations
+Home-page: UNKNOWN
+Author: George Sakkis
+Author-email: george.sakkis@gmail.com
+License: UNKNOWN
+Description: The ``Equivalence`` class can be used to maintain a partition of objects
+        into equivalence sets, making sure that the equivalence properties (reflexivity,
+        symmetry, transitivity) are maintained. Two objects ``x`` and ``y`` are
+        considered equivalent either implicitly (through a key function) or explicitly by
+        calling ``merge(x,y)``.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
